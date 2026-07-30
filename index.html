@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Seu Nome] — Ciências Contábeis</title>
+<!--
+  COMO USAR ESTE MODELO
+  ======================
+  1. Troque tudo entre colchetes [assim] pelo seu conteúdo.
+  2. Em PROJETOS, duplique o bloco <article class="work-card"> para adicionar mais trabalhos.
+  3. Em FORMAÇÃO, duplique o bloco <li class="tl-item"> para adicionar mais itens (cursos, formação, extensão).
+  4. Troque os href="#" pelos seus links reais (LinkedIn, e-mail, Lattes, PDF do currículo etc).
+  5. Para trocar a foto, coloque o arquivo em /assets e troque a div ".avatar" por: <img src="assets/foto.jpg" alt="[Seu Nome]">
+  Veja o README.md para instruções de como publicar isso gratuitamente no GitHub Pages.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">[Seu Nome]</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#formacao">formação</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#habilidades">habilidades</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">menu</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero wrap">
+    <span class="blob blob-1" aria-hidden="true"></span>
+    <span class="blob blob-2" aria-hidden="true"></span>
+    <span class="blob blob-3" aria-hidden="true"></span>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow c-blue"><span class="num">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </span>apresentação</p>
+        <h1>[Seu Nome]</h1>
+        <p class="role">Estudante de Ciências Contábeis</p>
+        <p class="tagline">[Uma frase curta sobre você — ex: "Em formação em Ciências Contábeis, com interesse em análise financeira e controladoria. Busco minha primeira oportunidade de estágio."]</p>
+        <div class="cta-row">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-ghost">Entrar em contato</a>
+        </div>
+      </div>
+      <div class="ledger">
+        <div class="ledger-title">Resumo</div>
+        <div class="ledger-row"><span class="k">Curso</span><span class="v">Ciências Contábeis</span></div>
+        <div class="ledger-row"><span class="k">Instituição</span><span class="v">[Nome da faculdade]</span></div>
+        <div class="ledger-row"><span class="k">Semestre atual</span><span class="v">[Xº semestre]</span></div>
+        <div class="ledger-row"><span class="k">Área de interesse</span><span class="v">[ex: Controladoria]</span></div>
+        <div class="ledger-row"><span class="k">Situação</span><span class="v"><span class="status-pill"><span class="dot"></span>disponível p/ estágio</span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider wrap">
+
+  <!-- ================= SOBRE ================= -->
+  <section class="section wrap reveal" id="sobre">
+    <div class="section-head">
+      <p class="eyebrow c-blue"><span class="num">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      </span>01 · quem eu sou</p>
+      <h2>Sobre mim</h2>
+    </div>
+    <div class="about-grid">
+      <div class="avatar-ring">
+        <div class="avatar">
+          <!-- troque este texto pela sua foto: <img src="assets/foto.jpg" alt="[Seu Nome]"> -->
+          [sua foto aqui]
+        </div>
+      </div>
+      <div class="about-text">
+        <p>[Parágrafo 1 — conte por que escolheu Ciências Contábeis e o que te motiva na área. Ex.: "Estou cursando <strong>Ciências Contábeis</strong> na [instituição] e me interesso especialmente por <strong>[área, ex: análise de demonstrações financeiras]</strong>."]</p>
+        <p>[Parágrafo 2 — mesmo sem experiência profissional, destaque projetos acadêmicos, iniciativas próprias, monitoria, participação em grupos de estudo ou eventos. Ex.: "Participo do grupo de estudos de [tema] e já desenvolvi trabalhos práticos envolvendo [ferramenta/tema]."]</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider wrap">
+
+  <!-- ================= FORMAÇÃO ================= -->
+  <section class="section wrap reveal" id="formacao">
+    <div class="section-head">
+      <p class="eyebrow c-lavender"><span class="num">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
+      </span>02 · trajetória</p>
+      <h2>Formação acadêmica</h2>
+    </div>
+    <ul class="timeline">
+      <li class="tl-item">
+        <p class="tl-period">[ano de início] — atual</p>
+        <h3 class="tl-title">Bacharelado em Ciências Contábeis</h3>
+        <p class="tl-org">[Nome da instituição]</p>
+        <ul class="tl-body">
+          <li>[Destaque: disciplina de maior interesse ou nota relevante]</li>
+          <li>[Destaque: participação em projeto, monitoria ou grupo de estudos]</li>
+        </ul>
+      </li>
+      <li class="tl-item">
+        <p class="tl-period">[mês/ano]</p>
+        <h3 class="tl-title">[Nome do curso extra/certificação]</h3>
+        <p class="tl-org">[Instituição/plataforma — ex: SENAC, Coursera]</p>
+        <ul class="tl-body">
+          <li>[Carga horária ou principal aprendizado do curso]</li>
+        </ul>
+      </li>
+      <li class="tl-item">
+        <p class="tl-period">[mês/ano]</p>
+        <h3 class="tl-title">[Outro curso ou workshop]</h3>
+        <p class="tl-org">[Instituição/plataforma]</p>
+        <ul class="tl-body">
+          <li>[Principal aprendizado ou ferramenta utilizada]</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divider wrap">
+
+  <!-- ================= PROJETOS / TRABALHOS ================= -->
+  <section class="section wrap reveal" id="projetos">
+    <div class="section-head">
+      <p class="eyebrow c-gold"><span class="num">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-6"/></svg>
+      </span>03 · na prática</p>
+      <h2>Projetos e trabalhos acadêmicos</h2>
+    </div>
+    <div class="work-grid">
+
+      <article class="work-card">
+        <div class="work-thumb t-blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-6"/></svg>
+        </div>
+        <div class="work-top">
+          <span class="work-name">[Nome do trabalho/projeto 1]</span>
+          <span class="work-type">trabalho acadêmico</span>
+        </div>
+        <p class="work-desc">[Descreva o que foi feito — ex: "Elaboração de um balanço patrimonial fictício e análise de indicadores de liquidez e endividamento de uma empresa simulada."]</p>
+        <div class="work-tags"><span>Excel</span><span>Análise de balanço</span></div>
+        <div class="work-links">
+          <a href="#">ver material</a>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-thumb t-mint">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <div class="work-top">
+          <span class="work-name">[Nome do trabalho/projeto 2]</span>
+          <span class="work-type">projeto pessoal</span>
+        </div>
+        <p class="work-desc">[Descreva o que foi feito — ex: "Planilha de controle financeiro pessoal com categorização automática de gastos e gráficos de acompanhamento mensal."]</p>
+        <div class="work-tags"><span>Excel avançado</span><span>Dashboards</span></div>
+        <div class="work-links">
+          <a href="#">ver material</a>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-thumb t-peach">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
+        </div>
+        <div class="work-top">
+          <span class="work-name">[Nome do trabalho/projeto 3]</span>
+          <span class="work-type">trabalho em grupo</span>
+        </div>
+        <p class="work-desc">[Descreva o que foi feito — ex: "Estudo de caso sobre apuração de tributos no regime de Lucro Presumido para uma empresa fictícia do setor de serviços."]</p>
+        <div class="work-tags"><span>Legislação tributária</span><span>Estudo de caso</span></div>
+        <div class="work-links">
+          <a href="#">ver material</a>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-thumb t-lavender">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18M7 6h1v4"/><path d="m16.71 13.88.7.71-2.82 2.82"/></svg>
+        </div>
+        <div class="work-top">
+          <span class="work-name">[Nome do trabalho/projeto 4]</span>
+          <span class="work-type">extensão / voluntariado</span>
+        </div>
+        <p class="work-desc">[Descreva o que foi feito — ex: "Apoio na organização financeira de um pequeno negócio local por meio de um programa de extensão universitária."]</p>
+        <div class="work-tags"><span>Fluxo de caixa</span><span>Organização financeira</span></div>
+        <div class="work-links">
+          <a href="#">ver material</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <hr class="divider wrap">
+
+  <!-- ================= HABILIDADES ================= -->
+  <section class="section wrap reveal" id="habilidades">
+    <div class="section-head">
+      <p class="eyebrow c-mint"><span class="num">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94Z"/></svg>
+      </span>04 · caixa de ferramentas</p>
+      <h2>Habilidades</h2>
+    </div>
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h3><span class="skill-icon t-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg></span>Ferramentas</h3>
+        <div class="tags">
+          <span class="tag">Excel avançado</span>
+          <span class="tag">Google Sheets</span>
+          <span class="tag">[ERP — ex: SAP]</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3><span class="skill-icon t-mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>Conhecimentos técnicos</h3>
+        <div class="tags">
+          <span class="tag">Contabilidade geral</span>
+          <span class="tag">Análise de balanços</span>
+          <span class="tag">Legislação tributária</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3><span class="skill-icon t-peach"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20Z"/></svg></span>Idiomas</h3>
+        <div class="tags">
+          <span class="tag">Português (nativo)</span>
+          <span class="tag">Inglês — [nível]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider wrap">
+
+  <!-- ================= CONTATO ================= -->
+  <section class="section wrap reveal" id="contato">
+    <div class="contact-card">
+      <span class="skill-icon t-peach" style="width:44px;height:44px;margin:0 auto 16px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px;"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+      </span>
+      <h2>Vamos conversar?</h2>
+      <p>[Uma linha de convite — ex: "Estou em busca da minha primeira oportunidade de estágio em contabilidade ou controladoria."]</p>
+      <div class="contact-links">
+        <a href="mailto:seuemail@exemplo.com" class="btn btn-ghost">e-mail</a>
+        <a href="#" class="btn btn-ghost">linkedin</a>
+        <a href="#" class="btn btn-ghost">currículo (pdf)</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> [Seu Nome] — portfólio de Ciências Contábeis.</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
